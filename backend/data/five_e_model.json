@@ -1,0 +1,124 @@
+{
+  "Engage": {
+    "description": "Hook the student, pose a real-world problem, activate prior knowledge.",
+    "instructions": "Create an opening scenario, question, or media reference that connects the topic to the student's world. Activate curiosity without providing formal definitions.",
+    "required_elements": [
+      "Real-world hook or provocation question",
+      "Connection to prior knowledge",
+      "Curiosity-provoking scenario"
+    ],
+    "tone": "Conversational, curious, inviting — like a documentary opening",
+    "content_rules": {
+      "min_content_blocks": 2,
+      "max_content_blocks": 3,
+      "min_knowledge_checks": 1,
+      "max_knowledge_checks": 2,
+      "exam_question_marks_range": [2, 4],
+      "expected_cognitive_levels": ["Recall"]
+    },
+    "quality_criteria": {
+      "must_include_hook": true,
+      "must_avoid_formal_definitions": true,
+      "must_reference_prior_knowledge": true,
+      "readability_target_grade": 10
+    }
+  },
+  "Explore": {
+    "description": "Guided inquiry, initial data analysis without formal definitions.",
+    "instructions": "Present data, diagrams, or thought experiments that let the student investigate the concept. Avoid giving away the answer; let them discover patterns.",
+    "required_elements": [
+      "Data table, diagram description, or virtual experiment setup",
+      "Guiding questions for pattern discovery",
+      "Prediction prompt before revealing results"
+    ],
+    "tone": "Investigative, encouraging — like guiding a lab partner",
+    "content_rules": {
+      "min_content_blocks": 3,
+      "max_content_blocks": 5,
+      "min_knowledge_checks": 1,
+      "max_knowledge_checks": 2,
+      "exam_question_marks_range": [2, 4],
+      "expected_cognitive_levels": ["Recall", "Apply"]
+    },
+    "quality_criteria": {
+      "must_include_data_or_observation": true,
+      "must_avoid_giving_away_answers": true,
+      "must_include_prediction_prompt": true,
+      "readability_target_grade": 10
+    }
+  },
+  "Explain": {
+    "description": "Formal definitions, direct instruction, vocabulary.",
+    "instructions": "Provide clear, structured explanations of key concepts and terminology. Use diagrams and examples to clarify. This is the core instructional phase.",
+    "required_elements": [
+      "Formal definitions of all key terms",
+      "Step-by-step process explanation",
+      "At least one worked example or analogy",
+      "Visual reference (diagram description)"
+    ],
+    "tone": "Clear, authoritative, pedagogically structured — like a textbook chapter",
+    "content_rules": {
+      "min_content_blocks": 3,
+      "max_content_blocks": 6,
+      "min_knowledge_checks": 2,
+      "max_knowledge_checks": 4,
+      "exam_question_marks_range": [3, 6],
+      "expected_cognitive_levels": ["Recall", "Apply", "Analyze"]
+    },
+    "quality_criteria": {
+      "must_define_key_vocabulary": true,
+      "must_include_worked_example": true,
+      "must_follow_logical_sequence": true,
+      "readability_target_grade": 11
+    }
+  },
+  "Elaborate": {
+    "description": "Application of knowledge to new domains, deeper practice.",
+    "instructions": "Challenge students to apply their new knowledge in unfamiliar contexts. Include cross-topic connections and higher-order thinking questions.",
+    "required_elements": [
+      "Novel application scenario",
+      "Cross-topic connection",
+      "Higher-order thinking question",
+      "Extension activity or deeper investigation prompt"
+    ],
+    "tone": "Challenging, thought-provoking — like a university tutorial discussion",
+    "content_rules": {
+      "min_content_blocks": 3,
+      "max_content_blocks": 5,
+      "min_knowledge_checks": 2,
+      "max_knowledge_checks": 3,
+      "exam_question_marks_range": [4, 8],
+      "expected_cognitive_levels": ["Apply", "Analyze"]
+    },
+    "quality_criteria": {
+      "must_include_novel_context": true,
+      "must_reference_cross_topic": true,
+      "must_require_higher_order_thinking": true,
+      "readability_target_grade": 12
+    }
+  },
+  "Evaluate": {
+    "description": "Formal assessment, exam-style questions.",
+    "instructions": "Test student understanding with structured assessment items aligned to the learning objectives. Include a mix of recall, application, and analysis questions.",
+    "required_elements": [
+      "Summative-style questions at multiple cognitive levels",
+      "Mark scheme with explicit marking criteria",
+      "Self-assessment reflection prompt"
+    ],
+    "tone": "Formal, precise — like an official exam paper",
+    "content_rules": {
+      "min_content_blocks": 2,
+      "max_content_blocks": 4,
+      "min_knowledge_checks": 3,
+      "max_knowledge_checks": 5,
+      "exam_question_marks_range": [4, 10],
+      "expected_cognitive_levels": ["Recall", "Apply", "Analyze"]
+    },
+    "quality_criteria": {
+      "must_cover_multiple_cognitive_levels": true,
+      "must_include_mark_scheme": true,
+      "must_align_to_learning_objectives": true,
+      "readability_target_grade": 12
+    }
+  }
+}

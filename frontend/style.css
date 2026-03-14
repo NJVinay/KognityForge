@@ -1,0 +1,154 @@
+/* ── KognityForge Premium Theme ─────────────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* Global Font Override */
+html, body, [class*="css"], .stMarkdown p, .stMarkdown li {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Base Body Text */
+.stMarkdown p, .stMarkdown li {
+    color: #4A5568;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* Top App Bar – Glassmorphic */
+header[data-testid="stHeader"] {
+    background: rgba(250, 248, 244, 0.8) !important;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(45, 27, 78, 0.05);
+}
+
+/* Sidebar Styling - Soft Gradient */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%) !important;
+    border-right: 1px solid rgba(45, 27, 78, 0.06);
+}
+section[data-testid="stSidebar"] .stMarkdown h1,
+section[data-testid="stSidebar"] .stMarkdown h2,
+section[data-testid="stSidebar"] .stMarkdown h3 {
+    color: #2D1B4E !important;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -0.02em;
+}
+
+/* Headers – Modern Gradient & Spacing */
+h1, h2, h3 {
+    color: #2D1B4E !important;
+    font-family: 'Outfit', sans-serif !important;
+    letter-spacing: -0.03em;
+}
+h1 {
+    background: linear-gradient(90deg, #2D1B4E 0%, #5E3EA1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+h2 { font-weight: 600; }
+h3 { font-weight: 600; color: #4A307B !important; }
+
+/* Primary CTA Buttons – Dynamic Premium Hover */
+button[kind="primary"],
+.stButton > button {
+    background: linear-gradient(135deg, #00E5A0 0%, #00C88C 100%) !important;
+    color: #1A1A2E !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    padding: 0.7rem 1.6rem !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 14px rgba(0, 229, 160, 0.3);
+}
+button[kind="primary"]:hover,
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 229, 160, 0.45);
+}
+button[kind="primary"]:active,
+.stButton > button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 10px rgba(0, 229, 160, 0.2);
+}
+
+/* Cards / Expanders – Clean Outlines & Shadows */
+.streamlit-expanderHeader {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    color: #2D1B4E;
+    background-color: #fafbfc;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+details {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+    border: 1px solid rgba(45,27,78,0.08); /* subtle purple tint border */
+    margin-bottom: 0.85rem;
+    overflow: hidden;
+}
+
+/* Tabs – iOS Style Segmented Control Look */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: #f1f3f5;
+    border-radius: 12px;
+    padding: 5px;
+    gap: 4px;
+    border-bottom: none !important;
+}
+.stTabs [data-baseweb="tab"] {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    color: #718096;
+    border-radius: 8px;
+    padding: 8px 20px;
+    transition: all 0.2s ease;
+}
+.stTabs [aria-selected="true"] {
+    background-color: #ffffff !important;
+    color: #2D1B4E !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border-bottom: none !important;
+}
+
+/* Status Data Container (st.status) */
+[data-testid="stStatusWidget"] {
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+}
+
+/* Selectboxes */
+.stSelectbox label {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: #2D1B4E;
+}
+
+/* Metrics – Sleek Dashboards */
+[data-testid="stMetric"] {
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.05);
+    padding: 15px 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+}
+[data-testid="stMetricValue"] {
+    color: #2D1B4E;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem !important;
+}
+[data-testid="stMetricLabel"] {
+    font-family: 'Outfit', sans-serif;
+    color: #718096;
+    font-weight: 600;
+    font-size: 0.85rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}

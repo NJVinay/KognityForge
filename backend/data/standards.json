@@ -1,0 +1,209 @@
+{
+  "IB_BIO_2.9": {
+    "framework": "IB DP",
+    "subject": "Biology",
+    "level": "Higher Level",
+    "topic_number": "2.9",
+    "topic": "2.9 Photosynthesis",
+    "unit": "Molecular Biology",
+    "description": "Photosynthesis is the production of carbon compounds in cells using light energy. Visible light has a range of wavelengths with violet the shortest wavelength and red the longest. Chlorophyll absorbs red and blue light most effectively and reflects green light. An absorption spectrum is a graph showing the percentage of light absorbed at each wavelength. An action spectrum shows the rate of photosynthesis at each wavelength of light.",
+    "assessment_statement": "Students should be able to explain the light-dependent reactions, the Calvin cycle, and the relationship between the structure of the chloroplast and its function.",
+    "command_terms": ["Explain", "Draw and label", "Compare", "Outline"],
+    "objectives": [
+      "Explain the process of photosynthesis including light-dependent and light-independent reactions.",
+      "Identify the main photosynthetic pigments and their absorption spectra.",
+      "Describe the structure of the chloroplast and relate it to its function.",
+      "Outline the role of photolysis, the electron transport chain, and chemiosmosis in the light-dependent reactions.",
+      "Explain the Calvin cycle including carbon fixation, reduction, and regeneration of RuBP."
+    ],
+    "key_vocabulary": ["chlorophyll", "thylakoid", "stroma", "photolysis", "NADPH", "RuBP", "Calvin cycle", "photophosphorylation", "carbon fixation", "absorption spectrum"],
+    "misconceptions": [
+      "Plants only photosynthesize during the day and only respire at night.",
+      "Photosynthesis and respiration are opposite processes that cancel each other out.",
+      "Oxygen is produced in the Calvin cycle."
+    ],
+    "prior_knowledge": ["Cell structure (Topic 1.2)", "Membrane transport (Topic 1.4)", "Enzymes (Topic 2.5)"],
+    "cross_references": ["Cellular respiration (Topic 2.8)", "Ecology and energy flow (Topic 4.2)"]
+  },
+  "IB_BIO_6.1": {
+    "framework": "IB DP",
+    "subject": "Biology",
+    "level": "Higher Level",
+    "topic_number": "6.1",
+    "topic": "6.1 Digestion and Absorption",
+    "unit": "Human Physiology",
+    "description": "The contraction of circular and longitudinal muscle of the small intestine mixes the food with enzymes and moves it along the gut. Pancreatic juice is secreted into the lumen of the small intestine. Enzymes digest most macromolecules in food into monomers in the small intestine. Villi increase the surface area of epithelium over which absorption is carried out. Villi absorb monomers formed by digestion as well as mineral ions and vitamins.",
+    "assessment_statement": "Students should be able to outline the control of digestive juice secretion and explain the structural features of the villus for absorption.",
+    "command_terms": ["Outline", "Explain", "Draw and label", "Distinguish"],
+    "objectives": [
+      "Explain the process of digestion of food in the small intestine, including the role of bile, pancreatic juice, and enzymes.",
+      "Outline the role of membrane-bound enzymes on the surface of epithelial cells in the small intestine.",
+      "Describe the structural features of the villus that increase absorption efficiency.",
+      "Explain the mechanisms of absorption including active transport, facilitated diffusion, and pinocytosis."
+    ],
+    "key_vocabulary": ["peristalsis", "villus", "microvilli", "lacteal", "pancreatic lipase", "trypsin", "maltase", "bile salts", "emulsification", "pinocytosis"],
+    "misconceptions": [
+      "Digestion only occurs in the stomach.",
+      "Bile is an enzyme.",
+      "Absorption happens everywhere in the digestive tract equally."
+    ],
+    "prior_knowledge": ["Cell membrane structure (Topic 1.3)", "Enzymes (Topic 2.5)", "Proteins (Topic 2.4)"],
+    "cross_references": ["Transport in blood (Topic 6.2)", "Defence against disease (Topic 6.3)"]
+  },
+  "IB_BIO_2.1": {
+    "framework": "IB DP",
+    "subject": "Biology",
+    "level": "Standard Level",
+    "topic_number": "2.1",
+    "topic": "2.1 Molecules to Metabolism",
+    "unit": "Molecular Biology",
+    "description": "Molecular biology explains living processes in terms of the chemical substances involved. Carbon atoms can form four covalent bonds allowing a diversity of stable compounds. Life is based on carbon compounds including carbohydrates, lipids, proteins and nucleic acids. Metabolism is the web of all the enzyme-catalysed reactions in a cell or organism. Anabolism is the synthesis of complex molecules from simpler ones, including condensation reactions. Catabolism is the breakdown of complex molecules into simpler ones, including hydrolysis reactions.",
+    "assessment_statement": "Students should be able to draw molecular diagrams of key biological molecules and distinguish between anabolism and catabolism.",
+    "command_terms": ["Draw", "Identify", "Distinguish", "State"],
+    "objectives": [
+      "Draw molecular diagrams of glucose, ribose, a saturated fatty acid, and a generalized amino acid.",
+      "Identify biochemistry as the study of life at the molecular level.",
+      "Distinguish between organic and inorganic compounds.",
+      "Explain the role of condensation and hydrolysis reactions in metabolism.",
+      "State that metabolic pathways consist of chains and cycles of enzyme-catalysed reactions."
+    ],
+    "key_vocabulary": ["monomer", "polymer", "condensation", "hydrolysis", "anabolism", "catabolism", "metabolism", "amino acid", "monosaccharide", "fatty acid", "glycerol", "nucleotide"],
+    "misconceptions": [
+      "All carbon compounds are organic.",
+      "Condensation reactions only form proteins.",
+      "Metabolism only refers to energy production."
+    ],
+    "prior_knowledge": ["Water (Topic 2.2)", "Chemical elements (Topic 1.1)"],
+    "cross_references": ["Enzymes (Topic 2.5)", "Cell respiration (Topic 2.8)", "Photosynthesis (Topic 2.9)"]
+  },
+  "NGSS_HS_LS1_5": {
+    "framework": "NGSS",
+    "subject": "High School Life Science",
+    "level": "High School",
+    "topic_number": "HS-LS1-5",
+    "topic": "Photosynthesis and Cellular Respiration",
+    "unit": "From Molecules to Organisms: Structures and Processes",
+    "description": "Use a model to illustrate how photosynthesis transforms light energy into stored chemical energy. Emphasize the inputs and outputs of matter and energy, the role of chemical processes, and the significance of these transformations for life on Earth. Assessment does not include specific biochemical steps of light reactions or the Calvin cycle.",
+    "assessment_statement": "Students who demonstrate understanding can use a model to illustrate how photosynthesis transforms light energy into stored chemical energy.",
+    "command_terms": ["Model", "Illustrate", "Use", "Explain"],
+    "objectives": [
+      "Use a model to illustrate that cellular respiration is a chemical process whereby the bonds of food molecules are broken and new compounds are formed.",
+      "Model energy transformation from light energy to chemical energy.",
+      "Highlight inputs (light, CO2, water) and outputs (O2, sugars, ATP) of photosynthesis.",
+      "Explain the relationship between photosynthesis and cellular respiration as complementary processes."
+    ],
+    "key_vocabulary": ["photosynthesis", "cellular respiration", "ATP", "glucose", "chloroplast", "mitochondria", "chemical energy", "light energy", "autotroph", "heterotroph"],
+    "misconceptions": [
+      "Plants get their food from the soil.",
+      "Photosynthesis and respiration are unrelated processes.",
+      "Energy is created during photosynthesis."
+    ],
+    "prior_knowledge": ["MS-LS1-6: Role of photosynthesis", "MS-LS1-7: Food molecules and energy"],
+    "cross_references": ["HS-LS1-7: Cellular respiration", "HS-LS2-4: Carbon cycle", "HS-ESS2-6: Carbon cycling"],
+    "science_practices": ["Developing and Using Models", "Constructing Explanations"],
+    "crosscutting_concepts": ["Energy and Matter: Flows, Cycles, and Conservation"]
+  },
+  "NGSS_HS_LS1_6": {
+    "framework": "NGSS",
+    "subject": "High School Life Science",
+    "level": "High School",
+    "topic_number": "HS-LS1-6",
+    "topic": "Carbon Cycling in Ecosystems",
+    "unit": "Ecosystems: Interactions, Energy, and Dynamics",
+    "description": "Construct and revise an explanation based on evidence for how carbon, hydrogen, and oxygen from sugar molecules may combine with other elements to form amino acids and/or other large carbon-based molecules. Emphasize conceptual understanding of how atoms recombine into different molecules.",
+    "assessment_statement": "Students who demonstrate understanding can construct and revise an explanation based on evidence for the cycling of matter and flow of energy in aerobic and anaerobic conditions.",
+    "command_terms": ["Construct", "Revise", "Explain", "Analyze"],
+    "objectives": [
+      "Construct an explanation based on evidence for how carbon, hydrogen, and oxygen from sugar molecules may form amino acids and other macromolecules.",
+      "Analyze how matter and energy are conserved as matter cycles and energy flows through ecosystems.",
+      "Explain how photosynthesis and cellular respiration contribute to the carbon cycle."
+    ],
+    "key_vocabulary": ["carbon cycle", "decomposition", "amino acid", "macromolecule", "biosynthesis", "trophic level", "biomass", "aerobic", "anaerobic"],
+    "misconceptions": [
+      "Matter is created and destroyed in ecosystems.",
+      "Decomposers do not contribute to the carbon cycle.",
+      "All energy in food chains comes directly from the sun."
+    ],
+    "prior_knowledge": ["HS-LS1-5: Photosynthesis", "MS-LS2-3: Matter cycling"],
+    "cross_references": ["HS-ESS2-6: Carbon cycling", "HS-LS2-4: Ecosystem dynamics"],
+    "science_practices": ["Constructing Explanations and Designing Solutions"],
+    "crosscutting_concepts": ["Energy and Matter: Flows, Cycles, and Conservation"]
+  },
+  "IB_BIO_11.4": {
+    "framework": "IB DP",
+    "subject": "Biology",
+    "level": "Higher Level",
+    "topic_number": "11.4",
+    "topic": "11.4 Sexual Reproduction",
+    "unit": "Animal Physiology (HL)",
+    "description": "Sexual reproduction involves the development and fusion of haploid gametes. Spermatogenesis and oogenesis both involve mitosis, cell growth, meiosis and differentiation. Fertilization involves mechanisms that prevent polyspermy. Implantation of the blastocyst in the endometrium is essential for the continuation of pregnancy.",
+    "assessment_statement": "Students should be able to annotate diagrams of seminiferous tubules and the ovary, and explain the process and outcomes of gametogenesis.",
+    "command_terms": ["Annotate", "Explain", "Compare", "Discuss"],
+    "objectives": [
+      "Annotate diagrams of the seminiferous tubule and ovary to show the stages and processes of spermatogenesis and oogenesis.",
+      "Compare spermatogenesis and oogenesis including the timing, number of gametes produced, and the role of meiosis.",
+      "Explain the role of hormones LH, FSH, testosterone, and estrogen in the regulation of gametogenesis.",
+      "Describe the process of fertilization and early embryo development up to implantation."
+    ],
+    "key_vocabulary": ["spermatogenesis", "oogenesis", "meiosis", "haploid", "diploid", "gamete", "acrosome reaction", "cortical reaction", "blastocyst", "endometrium", "FSH", "LH"],
+    "misconceptions": [
+      "Oogenesis produces four viable egg cells just like spermatogenesis produces four sperm.",
+      "Meiosis only occurs in reproductive cells.",
+      "Fertilization always occurs in the uterus."
+    ],
+    "prior_knowledge": ["Cell division (Topic 1.6)", "Meiosis (Topic 3.3)", "Hormones (Topic 6.6)"],
+    "cross_references": ["Genetics (Topic 3.4)", "Evolution (Topic 5.2)"]
+  },
+  "IB_BIO_8.2": {
+    "framework": "IB DP",
+    "subject": "Biology",
+    "level": "Higher Level",
+    "topic_number": "8.2",
+    "topic": "8.2 Photosynthesis (HL)",
+    "unit": "Metabolism, Cell Respiration, and Photosynthesis (HL)",
+    "description": "Light-dependent reactions take place in the intermembrane space of the thylakoids. Reduced NADP and ATP are produced in the light-dependent reactions. Absorption of light by photosystem I and II generates excited electrons. Photolysis of water generates electrons for use in the light-dependent reactions. Transfer of excited electrons occurs between carriers in thylakoid membranes. Excited electrons from photosystem II are used to generate a proton gradient. ATP synthase produces ATP using the proton gradient. Excited electrons from photosystem I are used to reduce NADP.",
+    "assessment_statement": "Students should be able to explain the light-dependent and light-independent reactions with reference to the molecular details of each stage.",
+    "command_terms": ["Explain", "Draw and label", "Annotate", "Compare"],
+    "objectives": [
+      "Explain the generation of excited electrons by photosystems I and II and the role of photolysis.",
+      "Describe how the electron transport chain generates a proton gradient across thylakoid membranes.",
+      "Explain the mechanism of ATP synthesis by chemiosmosis in chloroplasts.",
+      "Outline the steps of the Calvin cycle: carbon fixation by rubisco, reduction of GP to G3P, and regeneration of RuBP.",
+      "Explain how environmental factors (light intensity, CO2 concentration, temperature) affect the rate of photosynthesis."
+    ],
+    "key_vocabulary": ["photosystem I", "photosystem II", "photolysis", "electron carrier", "ferredoxin", "NADP reductase", "chemiosmosis", "ATP synthase", "rubisco", "GP", "G3P", "RuBP", "photorespiration", "limiting factor"],
+    "misconceptions": [
+      "Only one photosystem is needed for photosynthesis.",
+      "The Calvin cycle requires light directly.",
+      "ATP synthase and the electron transport chain are the same thing."
+    ],
+    "prior_knowledge": ["Photosynthesis overview (Topic 2.9)", "Cell respiration (Topic 2.8)", "Membrane structure (Topic 1.3)"],
+    "cross_references": ["Cell respiration HL (Topic 8.1)", "Ecology (Topic 4.2)"]
+  },
+  "NGSS_HS_LS2_3": {
+    "framework": "NGSS",
+    "subject": "High School Life Science",
+    "level": "High School",
+    "topic_number": "HS-LS2-3",
+    "topic": "Ecosystem Dynamics and Biodiversity",
+    "unit": "Ecosystems: Interactions, Energy, and Dynamics",
+    "description": "Construct and revise an explanation based on evidence for the cycling of matter and flow of energy in aerobic and anaerobic conditions. Student explanations should include that many different types of organisms live in an ecosystem and they interact with each other and with nonliving components. The emphasis is on how matter and energy flow through trophic levels.",
+    "assessment_statement": "Students should construct explanations about the cycling of matter and flow of energy through trophic levels using evidence from data.",
+    "command_terms": ["Construct", "Revise", "Analyze", "Model"],
+    "objectives": [
+      "Construct and revise an explanation for the cycling of matter and flow of energy in aerobic conditions.",
+      "Analyze data to explain how changes to one trophic level affect other levels in an ecosystem.",
+      "Model the flow of energy through ecosystems using quantitative concepts such as the 10% rule."
+    ],
+    "key_vocabulary": ["trophic level", "biomass pyramid", "energy pyramid", "producer", "primary consumer", "secondary consumer", "decomposer", "10% rule", "ecosystem", "food web"],
+    "misconceptions": [
+      "Energy is recycled in ecosystems just like matter.",
+      "Top predators get the most energy in a food chain.",
+      "Decomposers are not important to nutrient cycling."
+    ],
+    "prior_knowledge": ["MS-LS2-3: Matter cycling in organisms", "HS-LS1-5: Photosynthesis"],
+    "cross_references": ["HS-LS2-4: Ecosystem disruptions", "HS-ESS3-3: Human impact on ecosystems"],
+    "science_practices": ["Constructing Explanations and Designing Solutions", "Analyzing and Interpreting Data"],
+    "crosscutting_concepts": ["Energy and Matter: Flows, Cycles, and Conservation", "Stability and Change"]
+  }
+}
