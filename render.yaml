@@ -1,7 +1,7 @@
 services:
   - type: web
     name: kognityforge-backend
-    env: docker
+    runtime: docker
     dockerfilePath: ./backend/Dockerfile
     plan: free
     region: frankfurt
@@ -16,7 +16,7 @@ services:
         sync: false
       - key: AZURE_OPENAI_DEPLOYMENT_NAME
         sync: false
-      - key: OPENAI_API_VERSION
+      - key: AZURE_OPENAI_API_VERSION
         value: 2024-02-15-preview
       - key: FRONTEND_URL
         value: https://kognityforge.streamlit.app
