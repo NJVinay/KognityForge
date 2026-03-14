@@ -14,3 +14,4 @@ build/
 .ruff_cache/
 *.log
 Context_Documents/
+frontend/.streamlit/secrets.toml

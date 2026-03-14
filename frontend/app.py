@@ -23,8 +23,8 @@ if css_path.exists():
     st.markdown(f"<style>{css_path.read_text()}</style>", unsafe_allow_html=True)
 
 # ── Constants ────────────────────────────────────────────────────────────
-API_BASE = "http://localhost:8000"
 import os
+API_BASE = os.getenv("BACKEND_URL", "http://localhost:8000").rstrip("/")
 API_KEY = os.getenv("APP_API_KEY", "dev-kognity-secret-key-123!")
 HEADERS = {"X-API-Key": API_KEY}
 
