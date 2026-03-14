@@ -18,3 +18,5 @@ services:
         sync: false
       - key: OPENAI_API_VERSION
         value: 2024-02-15-preview
+      - key: FRONTEND_URL
+        value: https://kognityforge.streamlit.app
