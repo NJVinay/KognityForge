@@ -24,6 +24,9 @@ if css_path.exists():
 
 # ── Constants ────────────────────────────────────────────────────────────
 API_BASE = "http://localhost:8000"
+import os
+API_KEY = os.getenv("APP_API_KEY", "dev-kognity-secret-key-123!")
+HEADERS = {"X-API-Key": API_KEY}
 
 # ── Helpers ──────────────────────────────────────────────────────────────
 
@@ -32,7 +35,7 @@ API_BASE = "http://localhost:8000"
 def fetch_standards() -> dict:
     """Pull available standards from the backend."""
     try:
-        resp = httpx.get(f"{API_BASE}/api/v1/workflows/standards", timeout=10)
+        resp = httpx.get(f"{API_BASE}/api/v1/workflows/standards", headers=HEADERS, timeout=10)
         resp.raise_for_status()
         return resp.json()
     except Exception:
@@ -291,6 +294,7 @@ if generate_btn:
         try:
             resp = httpx.post(
                 f"{API_BASE}/api/v1/workflows/generate",
+                headers=HEADERS,
                 json={
                     "standard_id": selected_id,
                     "five_e_phase": selected_phase,

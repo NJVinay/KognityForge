@@ -1,7 +1,9 @@
 """API routes for KognityForge workflow endpoints."""
 
 import uuid
-from fastapi import APIRouter, HTTPException
+import os
+from fastapi import APIRouter, HTTPException, Depends, Security
+from fastapi.security.api_key import APIKeyHeader
 
 from schemas.kognity_models import (
     GenerateRequest,
@@ -9,7 +11,25 @@ from schemas.kognity_models import (
 )
 from workflows.orchestrator import run_workflow
 
-router = APIRouter(prefix="/api/v1/workflows", tags=["workflows"])
+# ── Security Authentication ──
+API_KEY_NAME = "X-API-Key"
+api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
+
+async def verify_api_key(api_key: str = Security(api_key_header)):
+    """Ensure the client passing the request has the valid internal API Key."""
+    expected_key = os.getenv("APP_API_KEY", "dev-kognity-secret-key-123!")
+    if api_key != expected_key:
+        raise HTTPException(
+            status_code=403, 
+            detail="Forbidden: Invalid or missing X-API-Key"
+        )
+    return api_key
+
+router = APIRouter(
+    prefix="/api/v1/workflows", 
+    tags=["workflows"],
+    dependencies=[Depends(verify_api_key)]
+)
 
 # In-memory store for completed runs (sufficient for prototype)
 _runs: dict[str, WorkflowRun] = {}
