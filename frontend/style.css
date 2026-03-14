@@ -153,3 +153,54 @@ details {
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
+
+/* ── Entry Animations ───────────────────────────────────────────────────── */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Apply fade-in to major containers */
+[data-testid="stVerticalBlock"] > div:has(div.stTabs),
+[data-testid="stVerticalBlock"] > div:has(div[data-testid="stMetric"]),
+.stExpander {
+    animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Staggered delay logic for sequential elements */
+[data-testid="stVerticalBlock"] > div:nth-child(2) { animation-delay: 0.05s; }
+[data-testid="stVerticalBlock"] > div:nth-child(3) { animation-delay: 0.1s; }
+[data-testid="stVerticalBlock"] > div:nth-child(4) { animation-delay: 0.15s; }
+
+/* ── Refined Sidebar Inputs ─────────────────────────────────────────────── */
+div[data-baseweb="select"] {
+    border-radius: 10px !important;
+    border: 1px solid rgba(45,27,78,0.1) !important;
+    background-color: white !important;
+}
+
+/* Hide Streamlit Branding for a White-Label Feel */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Custom Scrollbar for a sleek look */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+}
+

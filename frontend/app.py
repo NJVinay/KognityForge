@@ -222,8 +222,21 @@ def render_results(result: dict):
 
 # ── Sidebar ──────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("<h1 style='font-size: 2.2rem;'>✨ KognityForge</h1>", unsafe_allow_html=True)
-    st.caption("AI Content Workflow Engine")
+    # Custom Branded Header
+    st.markdown(
+        """
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 25px;">
+            <div style="background: linear-gradient(135deg, #00E5A0 0%, #00C88C 100%); width: 42px; height: 42px; border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0, 229, 160, 0.3);">
+                <span style="color: white; font-size: 22px; font-weight: 800;">K</span>
+            </div>
+            <div>
+                <h1 style='font-size: 1.6rem; margin: 0; line-height: 1.1; color: #2D1B4E;'>KognityForge</h1>
+                <p style='font-size: 0.8rem; margin: 0; color: #718096; font-weight: 500;'>CONTENT ENGINE v0.1</p>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
     st.write("")
 
     standards = fetch_standards()
@@ -281,8 +294,8 @@ with st.sidebar:
 
 
 # ── Main Canvas ──────────────────────────────────────────────────────────
-st.markdown("<h1 style='font-size: 3rem; margin-bottom: 0;'>Content Studio</h1>", unsafe_allow_html=True)
-st.caption("Review generated content, inspect JSON structures, and analyze quality validation scores.")
+st.markdown("<h1 style='font-size: 3.2rem; margin-bottom: 0; font-weight: 800; letter-spacing: -0.04em;'>Studio</h1>", unsafe_allow_html=True)
+st.caption("Craft, validate, and export 5E instructional content in real-time.")
 st.write("")
 
 if generate_btn:
@@ -326,9 +339,21 @@ elif "last_run" in st.session_state:
     render_results(st.session_state["last_run"])
 
 else:
-    with st.container():
-        st.info(
-            "👋 **Welcome to KognityForge!** \n\n"
-            "Configure a **curriculum standard** and **5E phase** in the left sidebar, "
-            "then click **Generate Content** to trigger the AI workflow pipeline."
-        )
+    st.markdown(
+        """
+        <div class="fade-in" style="background: white; padding: 40px; border-radius: 20px; border: 1px solid rgba(45,27,78,0.08); text-align: center; margin-top: 20px;">
+            <div style="font-size: 4rem; margin-bottom: 20px;">🚀</div>
+            <h2 style="margin-top: 0;">Ready to Forge Excellence?</h2>
+            <p style="color: #718096; max-width: 500px; margin: 0 auto 25px auto; font-size: 1.1rem;">
+                Select a curriculum standard and an instructional phase from the sidebar to begin generating 
+                high-quality, 5E-aligned educational content.
+            </p>
+            <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+                <span style="background: #f1f3f5; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; color: #4A5568; font-weight: 600;">✨ 5E Model Aligned</span>
+                <span style="background: #f1f3f5; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; color: #4A5568; font-weight: 600;">📊 Quality Scored</span>
+                <span style="background: #f1f3f5; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; color: #4A5568; font-weight: 600;">📦 JSON Export</span>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
