@@ -16,8 +16,5 @@ RUN pip install --no-cache-dir -r backend/requirements.txt
 # Copy project
 COPY backend/ /app/backend/
 
-# Expose port
-EXPOSE 8000
-
-# Run the application
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000", "--forwarded-allow-ips", "*"]
+# Run the application (Render binds to $PORT dynamically)
+CMD uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000} --forwarded-allow-ips "*"
