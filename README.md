@@ -1,4 +1,4 @@
-# KognityForge 🧬
+# [KognityForge](https://kognityforge.streamlit.app/) 🧬
 
 AI-powered educational content generation workflow, aligned with the **5E instructional model** and styled with Kognity's design system.
 
